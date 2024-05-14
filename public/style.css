@@ -1,0 +1,103 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+
+h1{
+    text-align: center;
+    color: maroon;
+}
+
+.btn1 {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.btn1:active {
+    background-color: #3e8e41; /* Even darker green */
+}
+
+#add{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+#add:active {
+    background-color: #3e8e41; /* Even darker green */
+}
+
+textarea {
+    font-size: x-large;
+}
+
+.post {
+    background-color: rgb(145, 245, 145);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2rem;
+}
+
+.form {
+    width: 50%; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    border: 2px solid black;
+    background-color: rgb(115, 222, 115);
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.form input[type="text"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Add border to input and textarea */
+    border-radius: 5px; /* Add some border radius for a rounded look */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.form textarea {
+    height: 150px; /* Adjust the height of the textarea */
+}
+
+.form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style button on hover */
+.form button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Style button on click */
+.form button:active {
+    background-color: #3e8e41; /* Even darker green */
+}
